@@ -1,0 +1,19 @@
+.pool-button {
+    border-radius: 30px !important;
+    border-color: #e6bd4f !important;
+}
+
+.user-staking-rewards-container {
+    border-radius: 15px;
+    padding: 15px 10px;
+    border: 1px solid #2e2e2e;
+}
+
+.user-staking-token-container{
+    border-radius: 15px;
+    padding: 15px 10px;
+    border: 1px solid #2e2e2e;
+}
+/* .apr-percentage {
+    overflow: hidden;
+} */

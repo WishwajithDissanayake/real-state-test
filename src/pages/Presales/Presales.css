@@ -1,0 +1,22 @@
+@media (min-width: 1024px) {
+    .presale-padding {
+        padding: 15px;
+    }
+}
+
+.progressbar-text-inside {
+    z-index: 1;
+    color: white;
+    font-size: 8px !important;
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    .presale-advanced-name {
+        font-size: 10px;
+    }
+    .presale-advanced-image {
+        width: 15px !important;
+        height: 15px !important;
+    }
+}

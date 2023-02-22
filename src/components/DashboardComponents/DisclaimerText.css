@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1000px) {
+    .disclaimer-text-mobile {
+        font-size: 8px !important;
+    }
+}

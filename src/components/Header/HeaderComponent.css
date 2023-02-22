@@ -1,0 +1,138 @@
+#hamburger-10{
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#hamburger-10.is-active{
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#hamburger-10.is-active .line:nth-child(1){
+  width: 10px
+}
+
+#hamburger-10.is-active .line:nth-child(2){
+  width: 15px
+}
+
+#hamburger-10.is-active .line:nth-child(3){
+  width: 20px
+}
+
+.hamburger .line{
+  width: 18px;
+  height: 2px;
+  display: block;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+}
+
+.three { width: 23.8%; }
+
+
+.hamburger-col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.hamburger-col:first-of-type {
+  margin-left: 0;
+}
+
+.hamburger-menu-margin {
+  margin-right: 5px;
+}
+
+.trending-up-button {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.kingsale_main_logo {
+  width: 160px;
+}
+
+@media (max-width: 340px){
+  .kingsale_main_logo {
+    width: 120px;
+  }
+}
+
+.ticker-heading:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  position: absolute;
+  /* margin-left: 40px; */
+}
+
+
+/* css stylings to second animation type */
+.ticker-section {
+  overflow: hidden !important;
+  overflow-x: hidden !important;
+}
+
+.wrapper {
+  max-width: 100%;
+  overflow: hidden !important;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 25s linear infinite;
+}
+
+.marquee span {
+  margin-top: 3px !important;
+  display: inline-block;
+}
+
+.marquee:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.marquee-ticker {
+  margin-right: 15px !important;
+}
+
+.trending-number {
+  margin-right: 3px !important;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}

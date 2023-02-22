@@ -1,0 +1,254 @@
+@import url('./styles/custom-theme.css');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  overflow-x: hidden; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.width-240 {
+  width: 240px;
+  transition: 0.2s;
+}
+
+.width-80 {
+  width: 80px;
+  transition: 0.2s;
+}
+
+/* center a div */
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.side-menu-margin {
+  margin-left: 80px;
+  transition: 0.5s;
+}
+
+.side-menu-margin-extended {
+  margin-left: 240px;
+  transition: 0.5s;
+}
+
+.kingsale-primary-button:hover {
+  box-shadow: 0 4px 30px rgba(230, 189, 79, 0.4);
+}
+
+.mobile-menu {
+  margin-top: -3px;
+  margin-left: 4px;
+}
+
+.primary-text {
+  color: #e6bd4f;
+}
+
+.break-text {
+  word-wrap: break-word
+}
+
+.cd-digit-cell {
+  font-size: 20px;
+  font-weight: 900;
+  background-color: #e6bd4f;
+  padding: 5px;
+  margin: 0 3px;
+  border-radius: 3px;
+  color: black;
+}
+
+.landing-section {
+  margin-top: 150px;
+}
+
+.landing-section-image {
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing-section-image-pc {
+  width: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* In process description color */
+.ant-steps-item-process .ant-steps-item-description {
+  font-size: x-small !important;
+}
+
+/* Description color finished */
+.ant-steps-item-finish .ant-steps-item-description {
+  font-size: x-small !important;
+}
+
+/* Discription color waiting */
+.ant-steps-item-wait .ant-steps-item-description {
+  font-size: x-small !important;
+}
+
+.affix-section {
+  position: fixed;
+  top: 80px;
+  z-index: 1000;
+}
+
+@media (max-width: 1000px){
+  .side-menu-margin-extended {
+    margin: 0;
+  }
+
+  .side-menu {
+    display: none;
+  }
+
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .landing-section-text {
+    margin-top: none;
+  }
+
+  .landing-section-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .affix-container {
+    overflow: auto;
+  }
+  .affix-280 {
+    margin-left: 0px !important;
+  }
+  .affix-80 {
+    margin-left: 0px !important;
+  }
+  .trending-name {
+    display: none !important;
+  }
+  .affix-section {
+    position: fixed;
+    top: 60px;
+    z-index: 1000;
+  }
+}
+
+@media (min-width: 1000px){
+  .mobile-menu {
+    display: none !important;
+  }
+
+  .hide-on-pc {
+    display: none !important;
+  }
+}
+
+.mobile-menu-svg {
+  margin-left: 24px !important;
+}
+.rounded-input {
+  border-radius: 5px !important;
+}
+
+.input-header {
+  text-align: left !important;
+  /* color: #dbdbdc !important; */
+}
+
+.selected-network {
+  border: 1px solid #e6bd4f !important;
+  box-shadow: 0 0 10px #e6bd4f !important;
+}
+
+.mini-progress-bar-container{
+  display: grid;
+}
+
+.progress-bar-mini, .progress-info {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.progress-info{
+  z-index: 99;
+}
+.affix-container {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.trending-items {
+  color: #e6bd4f;
+  margin-right: 20px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.affix-280 {
+  /* margin-left: 280px; */
+}
+.affix-80 {
+  /* margin-left: 80px; */
+}
+
+.pagination-arrows:hover {
+  color: #e6bd4f;
+}
+
+.content-margin {
+  margin-top: 60px !important;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 2px;
+  }
+  
+  ::-webkit-scrollbar-thumb:vertical {
+    background: #e6bd4f;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:horizontal {
+    background: #7a7878;
+    border-radius: 4px;
+  }
+}
+
+@media (min-width: 769px){
+  .hide-on-tabs-and-pc {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px){
+  .hide-on-small-devices {
+    display: none !important;
+  }
+}
+
+
+.ant-btn-primary[disabled]{
+  color: #575757 !important;
+}

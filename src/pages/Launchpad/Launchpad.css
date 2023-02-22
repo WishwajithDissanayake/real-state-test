@@ -1,0 +1,24 @@
+.review-info-card {
+    background: transparent !important;
+}
+
+.review-info-area {
+    overflow-wrap: anywhere;
+}
+.text-validation-error {
+	font-size: 10px;
+	color: #f45875;
+}
+.remove-margin-top {
+	margin-top: -28px !important;
+}
+.required-field-warning {
+	color: #f45875;
+}
+
+.ant-steps-finish-icon {
+	position: absolute;
+	top: 9px !important;
+	left: -8px !important;
+}
+
